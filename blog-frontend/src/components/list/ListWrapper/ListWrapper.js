@@ -12,5 +12,4 @@ const ListWrapper = ({children}) => (
   </div>
 );
 
-
 export default ListWrapper;

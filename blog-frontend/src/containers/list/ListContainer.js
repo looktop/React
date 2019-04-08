@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as listActions from 'store/modules/list';
 
-class  ListContainer extends Component {
+class ListContainer extends Component {
     getPostList = () => {
         // 페이지와 태그 값을 부모에게서 받아 옵니다.
         const { tag, page, ListActions } = this.props;

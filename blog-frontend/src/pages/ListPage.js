@@ -6,6 +6,8 @@ import ListContainer from 'containers/list/ListContainer';
 const ListPage = ({match}) => {
     // page의 기본 값을 1로 설정합니다.
     const { page = 1, tag } = match.params;
+    console.log("===match.params===");
+    console.log(match.params);
 
     return (
         <PageTemplate>
